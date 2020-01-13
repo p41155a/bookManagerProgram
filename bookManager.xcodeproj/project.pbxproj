@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		FF835B1F23CC278E000354E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF835B1E23CC278E000354E9 /* main.m */; };
+		FF835B2723CC2849000354E9 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = FF835B2623CC2849000354E9 /* Book.m */; };
+		FF835B2A23CC2B8E000354E9 /* bookManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FF835B2923CC2B8E000354E9 /* bookManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		FF835B1B23CC278E000354E9 /* bookManager */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = bookManager; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF835B1E23CC278E000354E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF835B2523CC2849000354E9 /* Book.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		FF835B2623CC2849000354E9 /* Book.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		FF835B2823CC2B8E000354E9 /* bookManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bookManager.h; sourceTree = "<group>"; };
+		FF835B2923CC2B8E000354E9 /* bookManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bookManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				FF835B1E23CC278E000354E9 /* main.m */,
+				FF835B2823CC2B8E000354E9 /* bookManager.h */,
+				FF835B2923CC2B8E000354E9 /* bookManager.m */,
+				FF835B2523CC2849000354E9 /* Book.h */,
+				FF835B2623CC2849000354E9 /* Book.m */,
 			);
 			path = bookManager;
 			sourceTree = "<group>";
@@ -119,7 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF835B2723CC2849000354E9 /* Book.m in Sources */,
 				FF835B1F23CC278E000354E9 /* main.m in Sources */,
+				FF835B2A23CC2B8E000354E9 /* bookManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
